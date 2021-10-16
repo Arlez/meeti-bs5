@@ -2,6 +2,7 @@
 $rojo: #f34f51;
 $verde: #0098ae;
 $oscuro: #212121;
+$gris: #b5b5b5;
 
 //asignar paleta de colores a bs
 $primary: $rojo;
@@ -14,6 +15,11 @@ $headings-font-weight: 700;
 
 //card
 $card-border-color: transparent;
+
+//link
+$nav-link-color:                    $gris;
+$nav-link-padding-x:                0;
+$nav-link-hover-color:              darken($gris,10%);
 
 //importar bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
