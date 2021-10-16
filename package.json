@@ -1,0 +1,23 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "\"boostrap5 y sass",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlez/meeti-bs5.git"
+  },
+  "author": "Daniel Barrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arlez/meeti-bs5/issues"
+  },
+  "homepage": "https://github.com/Arlez/meeti-bs5#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.43.2"
+  }
+}

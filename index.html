@@ -8,9 +8,103 @@
     <meta name="description" content="Meeti y aprendiendo bootsrap 5 y SASS.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/style.css"> 
 </head>
 <body>
+
+    <header class="container-xl header">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <img class="logo" src="img/logo.svg" alt="logo meeti">
+                <h1 class="display-2">Únete, la vida esta en un Meeti</h1>
+                <p class="fs-3">Únete a más de 300 mil organizadores que están compartiendo su pasión y constuyendo una comunidad.</p>
+                <a href="#" class="btn btn-danger">Inicia tu grupo</a>
+            </div>
+            <div class="col-md-6">
+                <img src="img/header.jpg" class="img-fluid" alt="imagen header">
+            </div>
+        </div>
+    </header><!--.header-->
+
+    <section class="container-xl">
+        <h2 class="fs-1 text-center">
+            Cómo funciona Meeti
+        </h2>
+        <p class="text-center w-50 mx-auto">Conoce a personas nuevas que compartan tus intereses a tráves de eventos en línea y en persona. Crear una cuenta es gratis.</p>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="img-fluid" src="img/icono_1.svg" alt="imagen unete a un grupo">
+                <h3 class="text-secondary text-center fs-4">Únete a un grupo</h3>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, dolor voluptatibus! Atque, dolor dignissimos. Obcaecati ut ullam reiciendis porro error!</p>
+            </div><!--cold-md-4-->
+            <div class="col-md-4">
+                <img class="img-fluid" src="img/icono_2.svg" alt="imagen unete a un grupo">
+                <h3 class="text-secondary text-center fs-4">Administra asistentes</h3>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, dolor voluptatibus! Atque, dolor dignissimos. Obcaecati ut ullam reiciendis porro error!</p>
+            </div><!--cold-md-4-->
+            <div class="col-md-4">
+                <img class="img-fluid" src="img/icono_3.svg" alt="imagen unete a un grupo">
+                <h3 class="text-secondary text-center fs-4">Crece tu comunidad</h3>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, dolor voluptatibus! Atque, dolor dignissimos. Obcaecati ut ullam reiciendis porro error!</p>
+            </div><!--cold-md-4-->
+        </div><!--.row-->
+        <div class="d-flex justify-content-center my-5">
+            <a href="#" class="btn btn-secondary text-white">Unirse a Meeti</a>
+        </div>
+    </section><!--.section-->
+
+    <main class="container-xl eventos mt-5">
+        <div class="d-flex justify-content-between">
+            <h2>Próximos Eventos</h2>
+            <a href="#" class="text-secondary text-decoration-none d-none d-sm-block">Explora más eventos</a>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/evento_1.jpg" alt="imagen evento" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text fecha fw-bold">10 diciembre 20:00 horas</p>
+                        <h3 class="card-title fs-5">Diseño de Apps con Swift</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, exercitationem?</p>
+                    </div>
+                </div>
+            </div><!--.col-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/evento_2.jpg" alt="imagen evento" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text fecha fw-bold">10 diciembre 20:00 horas</p>
+                        <h3 class="card-title fs-5">Marketing en Twitter</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, exercitationem?</p>
+                    </div>
+                </div>
+            </div><!--.col-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/evento_3.jpg" alt="imagen evento" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text fecha fw-bold">10 diciembre 20:00 horas</p>
+                        <h3 class="card-title fs-5">Ventas por Internet</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, exercitationem?</p>
+                    </div>
+                </div>
+            </div><!--.col-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/evento_4.jpg" alt="imagen evento" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text fecha fw-bold">10 diciembre 20:00 horas</p>
+                        <h3 class="card-title fs-5">Todo sobre Bitcoin</h3>
+                        <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, exercitationem?</p>
+                    </div>
+                </div>
+            </div><!--.col-->
+
+        </div>
+    </main><!--.main-->
 
 </body>
 </html>
